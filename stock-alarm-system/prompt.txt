@@ -1,0 +1,23 @@
+Based on the following data, please generate an investor judgment that identifies what investors care about, have neutral attitudes toward, and strongly oppose. The data includes:
+- **Company name**:The name of the company
+- **Keywords**: Common words that frequently appear during significant stock drops.
+- **Sentiment scores**: Numerical values representing the level of negative sentiment associated with each keyword (the more negative the score, the stronger the opposition).
+- **News summary**: A brief summary of the news related to the keywords.
+
+Data:
+- Company name:Tesla
+- Keywords: {china,delay,ford,price,deal}
+- Sentiment scores: {-0.27,-0.39,-0.20,-0.20,-0.19}
+- News summary: {Tesla China Shipments Expected to Slump for Fourth Time in 2024
+Tesla China sells 62,167 cars in Apr, down 30% from Mar
+Tesla cuts prices in US, China and Germany as competition heats up
+Tesla Stock Tumbles On Reported Robotaxi Reveal Delay
+Tesla hit with 'unexpected delay' for delivery of newest model
+Cybertruck Delivery Delay: Tesla Notifies Customers of Unexpected Setback
+Ford EV Drivers Can Now Use Tesla Superchargers
+Tesla joins GM, Ford in slowing EV factory ramp as demand fears spread
+Tesla sales fall for second straight quarter despite price cuts, but decline not as bad as expected
+Tesla cuts prices in US, China and Germany as competition heats up
+Elon Musk wins record-breaking Tesla pay deal from shareholders
+Chinese Tesla rival BYD agrees $1bn Turkey EV plant deal
+}
